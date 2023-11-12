@@ -26,7 +26,7 @@ $data = mysqli_fetch_array($result);
   <div class="container">
     <div class="row pt-5">
       <div class="col-md-3 text-left text-md-center mb-3">
-        <img class="rounded-circle img-fluid" src="<?php echo $data['foto_path']; ?>" alt="Foto Profil">
+        <img class="img-fluid" src="<?php echo $data['foto_path']; ?>" alt="Foto Profil">
       </div>
       <div class="col-md-9">
         <h1 class="card-title"><?php echo $data['nama']; ?></h1>
